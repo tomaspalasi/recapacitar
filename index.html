@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <title>RECAPACITAR 2026</title>
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/argentum-novus" type="text/css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <main class="site">
+    <header class="topbar">
+      <div class="prototype-badge">RECAP 2026</div>
+      <nav class="tabs" aria-label="Secciones del recap">
+        <button class="tab active" data-go="1">01 <span>Conectar</span></button>
+        <button class="tab locked" data-go="2">02 <span>Actividad</span></button>
+        <button class="tab locked" data-go="3">03 <span>Recap</span></button>
+        <button class="tab locked" data-go="4">04 <span>Acción</span></button>
+      </nav>
+    </header>
+
+    <section class="panel active" id="screen-1" data-screen="1">
+      <div class="panel-inner hero-grid">
+        <div>
+          <img class="logo title-logo" alt="Amnistía Internacional" src="assets/amnesty-logo.svg" />
+          <h1 class="displayTittle title-1"><span class="d-letter">RECAP</span></h1>
+          <h1 class="displayTittle title-1"><span class="damage">ACITAR</span></h1>
+          <p class="lead">Conectá tus redes<br>y descubrí tu huella digital del año.</p>
+        </div>
+        <div>
+          <div class="connect-stack" aria-label="Redes sociales">
+            <button class="social" data-social="X"><span class="social-icon x-badge"><img src="assets/x-logo.svg" alt="Logo X"></span><span><span class="service">Conectar X</span><span class="handle">@usuario</span></span><span class="social-arrow">→</span></button>
+            <button class="social" data-social="Instagram"><span class="social-icon ig-badge"><img src="assets/instagram-logo.svg" alt="Logo Instagram"></span><span><span class="service">Conectar Instagram</span><span class="handle">@usuario</span></span><span class="social-arrow">→</span></button>
+            <button class="social" data-social="Facebook"><span class="social-icon fb-badge"><img src="assets/facebook-logo.svg" alt="Logo Facebook"></span><span><span class="service">Conectar Facebook</span><span class="handle">@usuario</span></span><span class="social-arrow">→</span></button>
+            <button class="social" data-social="YouTube"><span class="social-icon yt-badge"><img src="assets/youtube-logo.svg" alt="Logo YouTube"></span><span><span class="service">Conectar YouTube</span><span class="handle">@usuario</span></span><span class="social-arrow">→</span></button>
+          </div>
+          <button id="viewRecap" class="primary-btn screen1-cta" disabled>Ver mi recap <span class="arrow">→</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="screen-2" data-screen="2">
+      <div class="panel-inner">
+        <div class="activity-head">
+          <div class="user-tag">@JuanPerez</div>
+          <div class="analysis-label">Publicaciones analizadas:</div>
+          <div class="analysis-count">133.450</div>
+        </div>
+        <h2 class="display activity-title">Un año de muchas<br>interacciones</h2>
+        <div class="posts">
+          <article class="post">
+            <div class="post-head"><span class="avatar"></span><span><span class="post-user">JuanPerez</span> <span class="post-meta">@JuanPerez · 12 mar.</span></span><span class="post-x"><img src="assets/x-logo.svg" alt="X"></span></div>
+            <div class="post-text">tremendo pelotudo</div><div class="post-stats"><span>◯ 12</span><span>↻ 3</span><span>♡ 28</span><span>▥ 4 mil</span></div>
+          </article>
+          <article class="post">
+            <div class="post-head"><span class="avatar"></span><span><span class="post-user">JuanPerez</span> <span class="post-meta">@JuanPerez · 5 abr.</span></span><span class="post-x"><img src="assets/x-logo.svg" alt="X"></span></div>
+            <div class="post-text">no das más de fracasado</div><div class="post-stats"><span>◯ 8</span><span>↻ 1</span><span>♡ 16</span><span>▥ 2 mil</span></div>
+          </article>
+          <article class="post">
+            <div class="post-head"><span class="avatar"></span><span><span class="post-user">JuanPerez</span> <span class="post-meta">@JuanPerez · 20 may.</span></span><span class="post-x"><img src="assets/x-logo.svg" alt="X"></span></div>
+            <div class="post-text">los infradotados no hablan</div><div class="post-stats"><span>◯ 25</span><span>↻ 4</span><span>♡ 31</span><span>▥ 6 mil</span></div>
+          </article>
+          <article class="post">
+            <div class="post-head"><span class="avatar"></span><span><span class="post-user">JuanPerez</span> <span class="post-meta">@JuanPerez · 2 jun.</span></span><span class="post-x"><img src="assets/x-logo.svg" alt="X"></span></div>
+            <div class="post-text">sos una verdadera mierda</div><div class="post-stats"><span>◯ 17</span><span>↻ 2</span><span>♡ 19</span><span>▥ 3 mil</span></div>
+          </article>
+        </div>
+        <button class="primary-btn activity-cta" data-go="3">Conocé tu nivel de crueldad <span class="arrow">→</span></button>
+      </div>
+      <button class="back-link" data-go="1">← Volver</button>
+    </section>
+
+    <section class="panel" id="screen-3" data-screen="3">
+      <div class="panel-inner recap-wrap">
+        <h2 class="display recap-title"><span class="yellow">RECAP</span>ACITAR</h2>
+        <div class="year-chip">2026</div>
+        <p class="level">Tu nivel de crueldad:</p>
+        <div class="big-stat"><span class="one">1 de cada 51</span><span class="rest">publicaciones contienen odio</span></div>
+        <div class="daily-chip">5 insultos por día</div>
+        <div class="lists">
+          <div><div class="list-title">Tus insultos favoritos:</div><ol class="rank"><li>1. &nbsp;IMBÉCIL</li><li>2. &nbsp;PELOTUDO</li><li>3. &nbsp;MIERDA</li><li>4. &nbsp;INFRADOTADO</li><li>5. &nbsp;IDIOTA</li></ol></div>
+          <div><div class="list-title">Víctimas preferidas:</div><ol class="rank"><li>1. &nbsp;@luna_12</li><li>2. &nbsp;@toto_mock</li><li>3. &nbsp;@ana_bts</li><li>4. &nbsp;@pato_cabj</li><li>5. &nbsp;@nico_fortin</li></ol></div>
+        </div>
+        <button class="next-round" data-go="4" aria-label="Ir a la última pantalla">→</button>
+      </div>
+      <button class="back-link" data-go="2">← Volver</button>
+    </section>
+
+    <section class="panel" id="screen-4" data-screen="4">
+      <div class="panel-inner final-wrap"><div class="final-content">
+        <h2 class="display final-title">RECONOCER EL DAÑO<br>ES EL PRIMER PASO PARA DEJAR DE HACERLO</h2>
+        <p class="final-sub">Dejemos de normalizar la crueldad</p>
+        <button id="shareRecap" class="primary-btn share-btn">COMPARTIR RECAP</button>
+        <img class="logo final-logo" alt="Amnistía Internacional" src="assets/amnesty-logo.svg" />
+      </div></div>
+      <button class="back-link" data-go="3">← Volver</button>
+    </section>
+  </main>
+
+
+  <div class="analysis-loader" id="analysisLoader" role="status" aria-live="polite" aria-hidden="true">
+    <div class="loader-card">
+      <div class="loader-kicker">RECAPACITAR 2026</div>
+      <div class="loader-ring" aria-hidden="true"></div>
+      <h2 class="loader-title">ANALIZANDO TU <span class="yellow">ACTIVIDAD</span></h2>
+      <p class="loader-status" id="loaderStatus">Conectando tus cuentas…</p>
+      <div class="loader-progress" aria-hidden="true"><div class="loader-progress-bar" id="loaderProgressBar"></div></div>
+      <div class="loader-meta"><span>Procesando publicaciones</span><span class="loader-percent" id="loaderPercent">0%</span></div>
+    </div>
+  </div>
+
+  <div class="modal" id="shareModal" role="dialog" aria-modal="true" aria-labelledby="shareTitle">
+    <button class="close-modal" id="closeModal" aria-label="Cerrar">×</button>
+    <div class="modal-card">
+      <div class="story-frame"><canvas id="storyCanvas" width="1080" height="1920"></canvas></div>
+      <div class="share-side">
+        <h2 id="shareTitle">Compartí tu recap</h2>
+        <p>La tercera pantalla se adapta automáticamente a formato historia 9:16 para compartir o descargar.</p>
+        <div class="share-actions">
+          <button class="share-action" data-share="copy">🔗 &nbsp;Copiar link</button>
+          <button class="share-action" data-share="instagram"><img src="assets/instagram-logo.svg" alt="Instagram" style="width:20px;height:20px;vertical-align:middle;margin-right:8px;border-radius:4px;">Compartir en Instagram</button>
+          <button class="share-action" data-share="x"><img src="assets/x-logo.svg" alt="X" style="width:20px;height:20px;vertical-align:middle;margin-right:8px;background:#fff;border-radius:6px;padding:2px;">Compartir en X</button>
+          <button class="share-action" data-share="whatsapp">◉ &nbsp;Compartir en WhatsApp</button>
+          <button class="share-action primary" data-share="download">↓ &nbsp;Descargar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="toast" id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
